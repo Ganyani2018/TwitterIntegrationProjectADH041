@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths/>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="batch-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="38" name="%0" offset="769" path="%1"/>
+   <linked-el length="40" name="%0" offset="570" path="%1"/>
+   <linked-el length="40" name="%0" offset="905" path="%1"/>
+   <linked-el length="38" name="%2" offset="1033" path="%1"/>
+   <linked-el length="12" name="%3" offset="377" path="%4"/>
+   <linked-el length="38" name="%5" offset="1033" path="%1"/>
+   <linked-el length="38" name="%4" offset="769" path="%1"/>
+   <linked-el length="40" name="%4" offset="570" path="%1"/>
+   <linked-el length="40" name="%4" offset="905" path="%1"/>
+   <linked-el length="38" name="%6" offset="769" path="%1"/>
+   <linked-el length="40" name="%6" offset="570" path="%1"/>
+   <linked-el length="40" name="%6" offset="905" path="%1"/>
+   <linked-el length="12" name="%6" offset="377" path="%4"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="twittercontroller" value="%0"/>
+  <alias path="employeecontroller" value="%2"/>
+  <alias path="twitter" value="%3"/>
+  <alias path="employeecontroller.addNewEmployee" value="%5"/>
+  <alias path="/TwitterFrontEnd/src/controller/TwitterController.java" value="%4"/>
+  <alias path="/TwitterFrontEnd/WebContent/index.xhtml" value="%1"/>
+  <alias path="/TwitterFrontEnd/src/model/Twitter.java" value="%6"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsf/core">
+   <prefix>f</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

@@ -1,0 +1,12 @@
+package model;
+
+import javax.persistence.Entity;
+
+@Entity(name="twitter_tbl")
+public class TwitterEntity {
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
+	
+
+}
